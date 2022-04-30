@@ -124,13 +124,3 @@ def decode(encoded, d, n, N2, fict_nums):
     if fict_nums > 0:
         return result[:-fict_nums]
     return result
-
-# test = "{'user': ['115', '3'], 'user2':['100', '5']}"
-# n, e, d = generate_keys()
-# encoded = encode(test, e, n)
-# encoded, N2, fict_nums = encoded.split("/")
-# encoded = encoded.split(" ")
-# print(encode(test, e, n))
-
-# decoded = decode(encoded, d, n, int(N2), int(fict_nums))
-# print(decoded(decoded, d, n, int(N2), int(fict_nums)))
