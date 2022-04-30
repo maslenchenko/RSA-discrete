@@ -26,7 +26,7 @@ Hash_message.py implements the hash function, which is further going to be used 
 How does the program work:
 
 ![image](https://user-images.githubusercontent.com/91615687/166122066-3ed8a356-5f7b-47c9-9b22-8e17efd06ca5.png)
-*the program was tested with seven terminals
+*the program was tested with up to seven terminals
 
 The alphabet used in the program includes ASCII symbols from 32 to 122, which means that only English letters can be used.
 
