@@ -30,7 +30,7 @@ How does the program work:
 
 The alphabet used in the program includes ASCII symbols from 32 to 122, which means that only English letters can be used.
 
-There is are several options for how to send a message:
+There are several options for how to send a message:
 1) if the user wants to send the message to all users, he should just write down the text
 2) if the user wants to send the message to a certain user or users, here is an example - user1 user2 user3|text or just user|text
 3) if the user writes down among receivers his own name, he will not receive the message 
