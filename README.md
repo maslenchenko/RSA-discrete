@@ -29,6 +29,7 @@ How does the program work:
 *the program was tested with seven terminals
 
 The alphabet used in the program includes ASCII symbols from 32 to 122, which means that only English letters can be used.
+
 There is are several options for how to send a message:
 1) if the user wants to send the message to all users, he should just write down the text
 2) if the user wants to send the message to a certain user or users, here is an example - user1 user2 user3|text or just user|text
@@ -38,5 +39,6 @@ There is are several options for how to send a message:
 ![image](https://user-images.githubusercontent.com/91615687/166122385-893049ad-a5a9-48c4-b0cb-bf2a001c167d.png)
 
 Message integrity
+
 Hash_message.py module contains only one function - to_hash(message). It is used before encoding the message and after decoding it. In case the message was incorrectly decoded, a notification will occur.
 
