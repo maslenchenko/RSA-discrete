@@ -1,15 +1,25 @@
 RSA cryptosystem implementation in Python3
 
+
 There are four modules: client.py, server.py, cryptography_funcs.py, and hash_message.py.
 
+
 The whole RSA algorithm is implemented in the cryptography_funcs.py module, which contains the following functions:
+
 is prime(num) - checks whether the number is prime or not
+
 gcd(a, b) - returns gcd of two numbers
+
 coprime(a, b) - checks whether two numbers are coprime
+
 euclidean(e, k) - implementation of the extended Euclidean algorithm
+
 generate_keys() - generates public and secret keys
+
 encode(message, e, n) - encodes a message, returns a string which consists of encoded blocks, blocks' length, and amount of fictitious characters
+
 decode(encoded, d, n, N2, fict_nums) - decodes message
+
 
 Hash_message.py implements the hash function, which is further going to be used in client.py and server.py.
 
